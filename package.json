@@ -1,5 +1,5 @@
 {
-  "name": "relsym",
+  "name": "@teambit/relsym",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
