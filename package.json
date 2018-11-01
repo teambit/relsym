@@ -13,7 +13,10 @@
   "scripts": {
     "test": "standard && tape ./test/*.spec.js | tap-spec"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teambit/relsym.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "mkdirp": "^0.5.1",
