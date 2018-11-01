@@ -1,7 +1,14 @@
 {
   "name": "relsym",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert absolute symlinks to relative ones",
+  "keywords": [
+    "symlink",
+    "link",
+    "absolute",
+    "relative",
+    "convert"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "standard && tape ./test/*.spec.js | tap-spec"
