@@ -1,4 +1,5 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![CircleCI](https://circleci.com/gh/teambit/relsym/tree/master.svg?style=svg)](https://circleci.com/gh/teambit/relsym/tree/master)
 
 # relsym
 A small utility that converts absolute symlinks to relative ones. Similar to [symlinks](https://github.com/brandt/symlinks) but in node.js.
