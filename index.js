@@ -8,7 +8,8 @@ module.exports = function relsym (target) {
   if (isSymlink) {
     const containingFolder = path.dirname(target)
     const linkTarget = fs.readlinkSync(target)
-    const rel = path.relative(containingFolder, linkTarget)
+    const realTarget = fs.realpathSync(path.resolve(containingFolder, linkTarget))
+    const rel = path.relative(containingFolder, realTarget)
     fs.unlinkSync(target)
     fs.symlinkSync(rel, target)
   } else if (isDir) {
