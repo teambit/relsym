@@ -1,6 +1,6 @@
 {
   "name": "relsym",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Convert absolute symlinks to relative ones",
   "keywords": [
     "symlink",
